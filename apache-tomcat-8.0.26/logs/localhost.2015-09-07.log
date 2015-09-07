@@ -1,0 +1,4 @@
+07-Sep-2015 15:06:34.348 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Sep-2015 15:06:34.484 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'mvc-dispatcher'
+07-Sep-2015 15:06:35.384 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+07-Sep-2015 15:06:35.384 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()

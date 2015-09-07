@@ -1,0 +1,46 @@
+07-Sep-2015 15:06:33.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.26
+07-Sep-2015 15:06:33.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 18 2015 11:38:37 UTC
+07-Sep-2015 15:06:33.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.26.0
+07-Sep-2015 15:06:33.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+07-Sep-2015 15:06:33.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.9.5
+07-Sep-2015 15:06:33.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+07-Sep-2015 15:06:33.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre
+07-Sep-2015 15:06:33.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_45-b14
+07-Sep-2015 15:06:33.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+07-Sep-2015 15:06:33.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/kratij/Documents/English/apache-tomcat-8.0.26
+07-Sep-2015 15:06:33.253 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/kratij/Documents/English/apache-tomcat-8.0.26
+07-Sep-2015 15:06:33.253 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/kratij/Documents/English/apache-tomcat-8.0.26/conf/logging.properties
+07-Sep-2015 15:06:33.253 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+07-Sep-2015 15:06:33.253 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/Users/kratij/Documents/English/apache-tomcat-8.0.26/endorsed
+07-Sep-2015 15:06:33.253 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/kratij/Documents/English/apache-tomcat-8.0.26
+07-Sep-2015 15:06:33.253 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/kratij/Documents/English/apache-tomcat-8.0.26
+07-Sep-2015 15:06:33.254 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/kratij/Documents/English/apache-tomcat-8.0.26/temp
+07-Sep-2015 15:06:33.254 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/kratij/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+07-Sep-2015 15:06:33.421 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+07-Sep-2015 15:06:33.456 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Sep-2015 15:06:33.460 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+07-Sep-2015 15:06:33.462 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+07-Sep-2015 15:06:33.462 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 689 ms
+07-Sep-2015 15:06:33.488 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+07-Sep-2015 15:06:33.489 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.26
+07-Sep-2015 15:06:33.525 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /Users/kratij/Documents/English/apache-tomcat-8.0.26/webapps/service.war
+07-Sep-2015 15:06:34.318 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+07-Sep-2015 15:06:34.484 INFO [localhost-startStop-1] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'mvc-dispatcher': initialization started
+07-Sep-2015 15:06:34.504 INFO [localhost-startStop-1] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'mvc-dispatcher-servlet': startup date [Mon Sep 07 15:06:34 IST 2015]; root of context hierarchy
+07-Sep-2015 15:06:34.537 INFO [localhost-startStop-1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/mvc-dispatcher-servlet.xml]
+07-Sep-2015 15:06:34.882 INFO [localhost-startStop-1] org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping.registerHandler Root mapping to handler 'helloController'
+07-Sep-2015 15:06:35.103 INFO [localhost-startStop-1] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'mvc-dispatcher': initialization completed in 619 ms
+07-Sep-2015 15:06:35.115 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /Users/kratij/Documents/English/apache-tomcat-8.0.26/webapps/service.war has finished in 1,590 ms
+07-Sep-2015 15:06:35.116 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/kratij/Documents/English/apache-tomcat-8.0.26/webapps/docs
+07-Sep-2015 15:06:35.132 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/kratij/Documents/English/apache-tomcat-8.0.26/webapps/docs has finished in 16 ms
+07-Sep-2015 15:06:35.132 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/kratij/Documents/English/apache-tomcat-8.0.26/webapps/examples
+07-Sep-2015 15:06:35.395 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/kratij/Documents/English/apache-tomcat-8.0.26/webapps/examples has finished in 263 ms
+07-Sep-2015 15:06:35.395 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/kratij/Documents/English/apache-tomcat-8.0.26/webapps/host-manager
+07-Sep-2015 15:06:35.422 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/kratij/Documents/English/apache-tomcat-8.0.26/webapps/host-manager has finished in 26 ms
+07-Sep-2015 15:06:35.422 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/kratij/Documents/English/apache-tomcat-8.0.26/webapps/manager
+07-Sep-2015 15:06:35.444 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/kratij/Documents/English/apache-tomcat-8.0.26/webapps/manager has finished in 22 ms
+07-Sep-2015 15:06:35.444 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /Users/kratij/Documents/English/apache-tomcat-8.0.26/webapps/ROOT
+07-Sep-2015 15:06:35.460 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /Users/kratij/Documents/English/apache-tomcat-8.0.26/webapps/ROOT has finished in 15 ms
+07-Sep-2015 15:06:35.463 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+07-Sep-2015 15:06:35.470 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+07-Sep-2015 15:06:35.470 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2007 ms
